@@ -1,0 +1,18 @@
+---
+import Page from '../layouts/Page.astro';
+import { iskola } from '../data/iskola';
+---
+<Page title="Körzeti általános iskola" section="informaciok" lead="A Zsirai Általános Iskola beiskolázási körzete.">
+  <div class="card box">
+    <span class="eyebrow">Körzeti általános iskola</span>
+    <strong>{iskola.nev.toUpperCase()}</strong>
+    <div>{iskola.cim}</div>
+    <p style="margin:1rem 0 .5rem">beiskolázási körzete az alábbi települések közigazgatási területe:</p>
+    <div class="chip-row">{iskola.korzet.map((t) => <span class="chip">{t}</span>)}</div>
+  </div>
+  <div class="notice"><p>Beiratkozással kapcsolatos aktuális tudnivalók a <a href="/tanev-rendje/">tanév rendje</a> oldalon és a <a href="/hirek/">hírek</a> között találhatók.</p></div>
+</Page>
+<style>
+  .box { padding: 1.75rem; }
+  .box strong { font-family: var(--font-head); font-size: 1.3rem; color: var(--green-900); display: block; }
+</style>

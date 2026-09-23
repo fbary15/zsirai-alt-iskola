@@ -1,0 +1,15 @@
+{
+  "name": "Zsirai Általános Iskola",
+  "short_name": "Zsirai Iskola",
+  "description": "A Zsirai Általános Iskola hivatalos honlapja",
+  "lang": "hu",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f4",
+  "theme_color": "#1f6b3a",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

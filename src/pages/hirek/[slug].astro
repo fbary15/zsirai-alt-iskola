@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import SideNav from '../../components/SideNav.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { hirek, formatDate, categoryLabel, tanev } from '../../lib/util';
+
+export function getStaticPaths() {
+  return hirek.map((h) => ({ params: { slug: h.slug }, props: { hir: h } }));
+}
+const { hir } = Astro.props;
+const list = hir.category === 'archivum' ? hirek.filter((h) => h.category === 'archivum') : hirek.filter((h) => h.category !== 'archivum');
+const idx = list.findIndex((h) => h.slug === hir.slug);
+const prev = list[idx + 1];
+const next = list[idx - 1];
+const related = list.filter((h) => h.slug !== hir.slug && h.cover).slice(Math.max(0, idx - 1), Math.max(0, idx - 1) + 3);
+const listHref = hir.category === 'archivum' ? '/archivum/' : '/hirek/';
+const listLabel = hir.category === 'archivum' ? 'Archívum' : 'Hírek';
+---
+<Base title={hir.title} description={hir.excerpt || `${hir.title} – ${listLabel}, Zsirai Általános Iskola`} image={hir.cover} type="article" published={hir.date}
+  crumbs={[{ label: listLabel, href: listHref }, { label: hir.title, href: `/hirek/${hir.slug}/` }]}
+  jsonLd={[{
+    '@context': 'https://schema.org', '@type': 'NewsArticle', headline: hir.title, datePublished: hir.date ?? undefined,
+    inLanguage: 'hu', image: hir.cover ? [new URL(hir.cover, Astro.site ?? 'http://localhost:4321')] : undefined,
+    author: { '@type': 'Organization', name: 'Zsirai Általános Iskola' }, publisher: { '@type': 'Organization', name: 'Zsirai Általános Iskola' },
+    mainEntityOfPage: new URL(`/hirek/${hir.slug}/`, Astro.site ?? 'http://localhost:4321'),
+  }]}>
+  <PageHero title={hir.title} crumbs={[{ label: listLabel, href: listHref }]} eyebrow={`${categoryLabel(hir.category)} · ${tanev(hir.date)}. tanév`}>
+    <p class="lead"><time datetime={hir.date ?? undefined}>{formatDate(hir.date)}</time></p>
+  </PageHero>
+  <div class="container page-body">
+    <div class="layout-side">
+      <article>
+        <div class="prose card article-body" set:html={hir.html} />
+        <nav class="prevnext" aria-label="Előző / következő bejegyzés">
+          {prev ? <a href={`/hirek/${prev.slug}/`} class="card pn"><small>← Régebbi</small><span>{prev.title}</span></a> : <span></span>}
+          {next ? <a href={`/hirek/${next.slug}/`} class="card pn right"><small>Újabb →</small><span>{next.title}</span></a> : <span></span>}
+        </nav>
+        {related.length > 0 && (
+          <section style="margin-top:3rem">
+            <h2 style="font-size:1.4rem">További bejegyzések</h2>
+            <div class="grid grid-3">{related.map((h) => <NewsCard hir={h} />)}</div>
+          </section>
+        )}
+      </article>
+      <SideNav />
+    </div>
+  </div>
+</Base>
+
+<style>
+  .article-body { padding: clamp(1.25rem, 4vw, 2.5rem); max-width: none; }
+  .prevnext { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem; }
+  .pn { padding: .9rem 1.1rem; text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: .15rem; transition: .18s; }
+  .pn:hover { box-shadow: var(--shadow); border-color: var(--green-500); }
+  .pn small { color: var(--muted); font-family: var(--font-head); font-weight: 600; }
+  .pn span { font-family: var(--font-head); font-weight: 600; color: var(--green-900); }
+  .pn.right { text-align: right; }
+  @media (max-width: 560px) { .prevnext { grid-template-columns: 1fr; } .pn.right { text-align: left; } }
+</style>

@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { iskola } from '../data/iskola';
+import { KRETA_URL } from '../data/nav';
+---
+<Base title="Elérhetőségeink" description="A Zsirai Általános Iskola címe, telefonszáma, OM azonosítója, térkép és üzenetküldés.">
+  <PageHero title="Elérhetőségeink" lead="Keressen minket bizalommal telefonon, levélben vagy személyesen." />
+  <div class="container page-body">
+    <div class="wrap">
+      <div class="stack">
+        <div class="card info">
+          <h2>{iskola.nev}</h2>
+          <dl>
+            <div><dt>Cím</dt><dd>{iskola.cim}</dd></div>
+            <div><dt>Telefon</dt><dd><a href={iskola.telefonHref}>{iskola.telefon}</a></dd></div>
+            <div><dt>Fax</dt><dd>{iskola.fax}</dd></div>
+            <div><dt>OM azonosító</dt><dd>{iskola.om}</dd></div>
+            <div><dt>Fenntartó</dt><dd>{iskola.fenntarto.nev}<br /><span class="muted">{iskola.fenntarto.cim}</span></dd></div>
+          </dl>
+          <div class="chip-row" style="margin-top:1rem">
+            <a class="chip" href={iskola.mapLink} target="_blank" rel="noopener">Útvonaltervezés ↗</a>
+            <a class="chip" href="/fogadoorak/">Fogadóórák</a>
+            <a class="chip" href={KRETA_URL} target="_blank" rel="noopener">KRÉTA e-napló ↗</a>
+          </div>
+        </div>
+        <div class="card map">
+          <iframe src={iskola.mapEmbed} width="100%" height="320" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Térkép – Zsirai Általános Iskola" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="card form-card">
+        <h2>Írjon nekünk</h2>
+        <p class="muted">Az alábbi mezőket kitöltve küldhet nekünk levelet. Az e-mail mezőbe kérjük, hogy a saját e-mail címét írja be!</p>
+        <form id="contact-form" method="post" action="#" novalidate>
+          <label>Név <input type="text" name="name" required autocomplete="name" /></label>
+          <label>E-mail cím <input type="email" name="email" required autocomplete="email" /></label>
+          <label>Az üzenet tárgya <input type="text" name="subject" required /></label>
+          <label>Üzenet <textarea name="message" rows="7" required></textarea></label>
+          <label class="check"><input type="checkbox" name="copy" /> Kérek másolatot a saját címemre</label>
+          <button class="btn btn-primary" type="submit">Küldés</button>
+          <p class="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .wrap { display: grid; grid-template-columns: 1.1fr 1fr; gap: 2rem; align-items: start; }
+  @media (max-width: 900px) { .wrap { grid-template-columns: 1fr; } }
+  .info { padding: 1.75rem; }
+  .info h2 { font-size: 1.4rem; }
+  dl { margin: 0; display: grid; gap: .6rem; }
+  dl div { display: grid; grid-template-columns: 130px 1fr; gap: .5rem; }
+  dt { font-family: var(--font-head); font-weight: 700; color: var(--green-700); font-size: .9rem; text-transform: uppercase; letter-spacing: .05em; padding-top: .15rem; }
+  dd { margin: 0; }
+  .map { overflow: hidden; }
+  .form-card { padding: 1.75rem; }
+  form { display: grid; gap: 1rem; }
+  label { display: grid; gap: .35rem; font-family: var(--font-head); font-weight: 600; font-size: .92rem; color: var(--green-900); }
+  input[type="text"], input[type="email"], textarea { font: inherit; font-family: var(--font-body); padding: .7rem .9rem; border: 1px solid #cdd5cf; border-radius: 10px; background: #fff; width: 100%; }
+  input:focus, textarea:focus { border-color: var(--green-600); outline: 3px solid var(--green-100); }
+  .check { grid-template-columns: auto 1fr; align-items: center; font-weight: 500; display: flex; gap: .5rem; }
+  .status { margin: 0; font-size: .95rem; color: var(--green-700); font-weight: 600; }
+  form .btn { justify-self: start; }
+</style>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const status = form.querySelector('.status')!;
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    const fd = new FormData(form);
+    const subject = encodeURIComponent(String(fd.get('subject')));
+    const body = encodeURIComponent(`${fd.get('message')}\n\n${fd.get('name')} <${fd.get('email')}>`);
+    // A végleges levélküldő végpont (pl. PHP/Formspree) beállításáig a levelezőprogramot nyitjuk meg.
+    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+    status.textContent = 'Az üzenet a levelezőprogramjában nyílik meg – kérjük, onnan küldje el.';
+  });
+</script>

@@ -1,0 +1,23 @@
+---
+import Page from '../layouts/Page.astro';
+import { tanevRendje } from '../data/iskola';
+import { pages } from '../lib/util';
+const p = pages['tanev-rendje'];
+---
+<Page title="A tanév rendje" section="informaciok" lead={`A ${tanevRendje.tanev}. tanév főbb dátumai: szünetek, félévzárás, középiskolai felvételi, beiratkozás és kompetenciamérések.`}>
+  <ul class="timeline" style="margin-bottom:2.5rem">
+    {tanevRendje.esemenyek.map((e) => (
+      <li class="card"><span class="when">{e.mikor}</span><span><span class="what">{e.mi}</span>{e.megj && <p class="note">{e.megj}</p>}</span></li>
+    ))}
+  </ul>
+  <details class="card details">
+    <summary>Részletes tájékoztató (eredeti szöveg)</summary>
+    <div class="prose" set:html={p.html} />
+  </details>
+  <p style="margin-top:1.5rem"><a class="btn btn-outline" href="/dokumentumok/or.pdf" target="_blank" rel="noopener">Órarendek – 2026/27. I. félév (PDF)</a></p>
+</Page>
+<style>
+  .details { padding: 1rem 1.5rem; }
+  .details summary { cursor: pointer; font-family: var(--font-head); font-weight: 700; color: var(--green-800); padding: .25rem 0; }
+  .details .prose { margin-top: 1rem; max-width: none; }
+</style>

@@ -1,0 +1,40 @@
+---
+import Page from '../layouts/Page.astro';
+import { szmk } from '../data/iskola';
+const also = [1, 2, 3, 4];
+const felso = [5, 6, 7, 8];
+---
+<Page title="Osztályaink" section="iskolank" lead="Iskolánkban évfolyamonként egy osztály működik: alsó tagozaton négy, felső tagozaton négy osztályban tanulnak diákjaink.">
+  <h2>Alsó tagozat</h2>
+  <p class="muted">1–4. évfolyam · napközi, német nyelv a 2. osztálytól, kötelező úszásoktatás a 4. évfolyamon.</p>
+  <div class="grid grid-4" style="margin-bottom:2.5rem">
+    {also.map((n) => (
+      <div class="card osz">
+        <span class="num">{n}.</span>
+        <strong>{n}. osztály</strong>
+        <small>SZMK: {szmk.tagok[n - 1].tagok.join(', ')}</small>
+      </div>
+    ))}
+  </div>
+  <h2>Felső tagozat</h2>
+  <p class="muted">5–8. évfolyam · tanulószoba, szakkörök, erdei iskola, Határtalanul program a 7. osztályban.</p>
+  <div class="grid grid-4">
+    {felso.map((n) => (
+      <div class="card osz felso">
+        <span class="num">{n}.</span>
+        <strong>{n}. osztály</strong>
+        <small>SZMK: {szmk.tagok[n - 1].tagok.join(', ')}</small>
+      </div>
+    ))}
+  </div>
+  <div class="notice" style="margin-top:2.5rem">
+    <p>Az osztályok órarendjei a <a href="/dokumentumok/or.pdf" target="_blank" rel="noopener">2026/27. tanév I. félévi órarend</a> dokumentumban, a pedagógusok elérhetőségei a <a href="/fogadoorak/">fogadóórák</a> oldalon találhatók.</p>
+  </div>
+</Page>
+<style>
+  .osz { padding: 1.25rem; display: flex; flex-direction: column; gap: .2rem; position: relative; overflow: hidden; }
+  .osz .num { font-family: var(--font-head); font-weight: 800; font-size: 2.4rem; color: var(--green-100); line-height: 1; position: absolute; right: .9rem; top: .6rem; }
+  .osz.felso .num { color: var(--sun-100); }
+  .osz strong { font-family: var(--font-head); color: var(--green-900); font-size: 1.15rem; }
+  .osz small { color: var(--muted); font-size: .85rem; }
+</style>

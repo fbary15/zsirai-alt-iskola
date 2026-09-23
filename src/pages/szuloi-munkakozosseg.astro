@@ -1,0 +1,21 @@
+---
+import Page from '../layouts/Page.astro';
+import { szmk } from '../data/iskola';
+---
+<Page title="Szülői munkaközösség" section="iskolank" lead="A szülői munkaközösség osztályonként választott tagjai segítik az iskola rendezvényeit, programjait.">
+  <div class="card person" style="margin-bottom:2rem;max-width:420px"><span class="avatar sun">RA</span><div><div class="name">{szmk.elnok}</div><div class="role">az SZMK elnöke</div></div></div>
+  <h2>Tagok osztályonként</h2>
+  <div class="grid grid-2">
+    {szmk.tagok.map((t) => (
+      <div class="card osz">
+        <strong>{t.osztaly}</strong>
+        <ul class="list-clean">{t.tagok.map((n) => <li>{n}</li>)}</ul>
+      </div>
+    ))}
+  </div>
+</Page>
+<style>
+  .osz { padding: 1.1rem 1.25rem; }
+  .osz strong { font-family: var(--font-head); color: var(--green-700); display: block; margin-bottom: .4rem; text-transform: uppercase; letter-spacing: .06em; font-size: .85rem; }
+  .osz li { padding: .2rem 0; font-weight: 500; }
+</style>

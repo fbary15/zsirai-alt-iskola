@@ -1,0 +1,2093 @@
+[
+ {
+  "slug": "szinjatszo-szakkor-bemutatoja",
+  "title": "Színjátszó szakkör bemutatója",
+  "year": null,
+  "images": [
+   {
+    "src": "/images/4899ffc2_phoca_thumb_l_1._jancsi_es_iluska.webp",
+    "thumb": "/images/t/4899ffc2_phoca_thumb_l_1._jancsi_es_iluska.webp",
+    "alt": "1. Jancsi és Iluska",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/f7ddce9a_phoca_thumb_l_2._a_merges_gazda.webp",
+    "thumb": "/images/t/f7ddce9a_phoca_thumb_l_2._a_merges_gazda.webp",
+    "alt": "2. A mérges gazda",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/1603b781_phoca_thumb_l_3_zsivnyok_tanyja.webp",
+    "thumb": "/images/t/1603b781_phoca_thumb_l_3_zsivnyok_tanyja.webp",
+    "alt": "3 Zsiványok tanyája",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/b5761dc6_phoca_thumb_l_4_jancsi_huszr_lesz.webp",
+    "thumb": "/images/t/b5761dc6_phoca_thumb_l_4_jancsi_huszr_lesz.webp",
+    "alt": "4 Jancsi huszár lesz",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/4924f06f_phoca_thumb_l_5_a_francia_udvar_s_a_kirlykisasszonyok.webp",
+    "thumb": "/images/t/4924f06f_phoca_thumb_l_5_a_francia_udvar_s_a_kirlykisasszonyok.webp",
+    "alt": "5 A francia udvar és a királykisasszonyok",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/058b49bf_phoca_thumb_l_6_jancsi_kette_vgja_a_torok_basat.webp",
+    "thumb": "/images/t/058b49bf_phoca_thumb_l_6_jancsi_kette_vgja_a_torok_basat.webp",
+    "alt": "6 Jancsi ketté vágja a török basát",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/6a1b379c_phoca_thumb_l_7_oromunnep_kiuztek_a_torokoket.webp",
+    "thumb": "/images/t/6a1b379c_phoca_thumb_l_7_oromunnep_kiuztek_a_torokoket.webp",
+    "alt": "7 Örömünnep kiűzték a törököket",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/42536501_phoca_thumb_l_8_matol_fogva_neved_janos_vitez_legyen.webp",
+    "thumb": "/images/t/42536501_phoca_thumb_l_8_matol_fogva_neved_janos_vitez_legyen.webp",
+    "alt": "8 \\",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/211dfc9f_phoca_thumb_l_9_hazafele_a_kiralyi_galyan_viharban.webp",
+    "thumb": "/images/t/211dfc9f_phoca_thumb_l_9_hazafele_a_kiralyi_galyan_viharban.webp",
+    "alt": "9 Hazafelé a királyi gályán viharban",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/6cf8b0c7_phoca_thumb_l_10_az_oriasok_foldjen.webp",
+    "thumb": "/images/t/6cf8b0c7_phoca_thumb_l_10_az_oriasok_foldjen.webp",
+    "alt": "10 Az óriások földjén",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/2e9af983_phoca_thumb_l_11_boszorkanyok_kozott.webp",
+    "thumb": "/images/t/2e9af983_phoca_thumb_l_11_boszorkanyok_kozott.webp",
+    "alt": "11 Boszorkányok között",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/49f58e14_phoca_thumb_l_12_tunderorszag.webp",
+    "thumb": "/images/t/49f58e14_phoca_thumb_l_12_tunderorszag.webp",
+    "alt": "12 Tündérország",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/13bd9612_phoca_thumb_l_13__es_a_rozsat_a_toba_hajita.webp",
+    "thumb": "/images/t/13bd9612_phoca_thumb_l_13__es_a_rozsat_a_toba_hajita.webp",
+    "alt": "13  És  arózsát a tóba hajítja",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/c309e89e_phoca_thumb_l_14_boldogsag_szerelem.webp",
+    "thumb": "/images/t/c309e89e_phoca_thumb_l_14_boldogsag_szerelem.webp",
+    "alt": "14 Boldogság szerelem",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/4ac588cb_phoca_thumb_l_15_a_finale.webp",
+    "thumb": "/images/t/4ac588cb_phoca_thumb_l_15_a_finale.webp",
+    "alt": "15 A finálé",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/070220ee_phoca_thumb_l_16_koszonet_a_foglalkozas_vezetonek.webp",
+    "thumb": "/images/t/070220ee_phoca_thumb_l_16_koszonet_a_foglalkozas_vezetonek.webp",
+    "alt": "16 Köszönet a foglalkozás vezetőnek",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/c55347f4_phoca_thumb_l_17_koszonok_mindent.webp",
+    "thumb": "/images/t/c55347f4_phoca_thumb_l_17_koszonok_mindent.webp",
+    "alt": "17\\",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/f40f8068_phoca_thumb_l_18_a_taps_fogadasa.webp",
+    "thumb": "/images/t/f40f8068_phoca_thumb_l_18_a_taps_fogadasa.webp",
+    "alt": "18 A taps fogadása",
+    "w": 605,
+    "h": 340
+   },
+   {
+    "src": "/images/1a97faa1_phoca_thumb_l_19_a_siker_pillanata.webp",
+    "thumb": "/images/t/1a97faa1_phoca_thumb_l_19_a_siker_pillanata.webp",
+    "alt": "19 A siker pillanata",
+    "w": 605,
+    "h": 340
+   }
+  ],
+  "cover": "/images/4899ffc2_phoca_thumb_l_1._jancsi_es_iluska.webp"
+ },
+ {
+  "slug": "rajz-szakkor-zarasa-locsmandon",
+  "title": "Rajz szakkör zárása Locsmándon",
+  "year": null,
+  "images": [
+   {
+    "src": "/images/7d8450c1_phoca_thumb_l_muskatlisablak.webp",
+    "thumb": "/images/t/7d8450c1_phoca_thumb_l_muskatlisablak.webp",
+    "alt": "muskatlisablak",
+    "w": 359,
+    "h": 480
+   },
+   {
+    "src": "/images/691c9850_phoca_thumb_l_gabi.webp",
+    "thumb": "/images/t/691c9850_phoca_thumb_l_gabi.webp",
+    "alt": "Gabi",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/d7a11b7a_phoca_thumb_l_mirjana.webp",
+    "thumb": "/images/t/d7a11b7a_phoca_thumb_l_mirjana.webp",
+    "alt": "Mirjana",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/f45e616c_phoca_thumb_l_dominika.webp",
+    "thumb": "/images/t/f45e616c_phoca_thumb_l_dominika.webp",
+    "alt": "Dominika",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/80f63fcd_phoca_thumb_l_toll.webp",
+    "thumb": "/images/t/80f63fcd_phoca_thumb_l_toll.webp",
+    "alt": "toll",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/737cbd44_phoca_thumb_l_kiallitas.webp",
+    "thumb": "/images/t/737cbd44_phoca_thumb_l_kiallitas.webp",
+    "alt": "kiallitas",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/ceabc596_phoca_thumb_l_pajta.webp",
+    "thumb": "/images/t/ceabc596_phoca_thumb_l_pajta.webp",
+    "alt": "pajta",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/766a805c_phoca_thumb_l_udvar.webp",
+    "thumb": "/images/t/766a805c_phoca_thumb_l_udvar.webp",
+    "alt": "udvar",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/7d8450c1_phoca_thumb_l_muskatlisablak.webp"
+ },
+ {
+  "slug": "rendhagyo-enekora",
+  "title": "Rendhagyó énekóra",
+  "year": null,
+  "images": [
+   {
+    "src": "/images/ea2344c8_phoca_thumb_l_5.webp",
+    "thumb": "/images/t/ea2344c8_phoca_thumb_l_5.webp",
+    "alt": "5",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/e317676b_phoca_thumb_l_6.webp",
+    "thumb": "/images/t/e317676b_phoca_thumb_l_6.webp",
+    "alt": "6",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/0506ff7f_phoca_thumb_l_7.webp",
+    "thumb": "/images/t/0506ff7f_phoca_thumb_l_7.webp",
+    "alt": "7",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/cf59ec09_phoca_thumb_l_8.webp",
+    "thumb": "/images/t/cf59ec09_phoca_thumb_l_8.webp",
+    "alt": "8",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/6f18b025_phoca_thumb_l_9.webp",
+    "thumb": "/images/t/6f18b025_phoca_thumb_l_9.webp",
+    "alt": "9",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b1ead0a8_phoca_thumb_l_10.webp",
+    "thumb": "/images/t/b1ead0a8_phoca_thumb_l_10.webp",
+    "alt": "10",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/d64aae1b_phoca_thumb_l_11.webp",
+    "thumb": "/images/t/d64aae1b_phoca_thumb_l_11.webp",
+    "alt": "11",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5a773685_phoca_thumb_l_12.webp",
+    "thumb": "/images/t/5a773685_phoca_thumb_l_12.webp",
+    "alt": "12",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/ea2344c8_phoca_thumb_l_5.webp"
+ },
+ {
+  "slug": "osztalyprogram-szulokkel",
+  "title": "Osztályprogram szülőkkel",
+  "year": null,
+  "images": [
+   {
+    "src": "/images/a679d920_phoca_thumb_l_felscsatr_2006.webp",
+    "thumb": "/images/t/a679d920_phoca_thumb_l_felscsatr_2006.webp",
+    "alt": "felscsatr 2006",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/65522d6f_phoca_thumb_l_fertrkos_2005.webp",
+    "thumb": "/images/t/65522d6f_phoca_thumb_l_fertrkos_2005.webp",
+    "alt": "fertrkos 2005",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/acc6b842_phoca_thumb_l_frds_locsmndon_2011.webp",
+    "thumb": "/images/t/acc6b842_phoca_thumb_l_frds_locsmndon_2011.webp",
+    "alt": "frds locsmndon 2011",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/b1c9be06_phoca_thumb_l_hd-tra_2011.webp",
+    "thumb": "/images/t/b1c9be06_phoca_thumb_l_hd-tra_2011.webp",
+    "alt": "hd-tra 2011",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/37effb1a_phoca_thumb_l_kerkprtra_2011.webp",
+    "thumb": "/images/t/37effb1a_phoca_thumb_l_kerkprtra_2011.webp",
+    "alt": "kerkprtra 2011",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/6a11c987_phoca_thumb_l_kiszsidnyi_forrsnl_2007.webp",
+    "thumb": "/images/t/6a11c987_phoca_thumb_l_kiszsidnyi_forrsnl_2007.webp",
+    "alt": "kiszsidnyi forrsnl 2007",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/6dca5e9a_phoca_thumb_l_kiszsidnyi_forrsnl_2009.webp",
+    "thumb": "/images/t/6dca5e9a_phoca_thumb_l_kiszsidnyi_forrsnl_2009.webp",
+    "alt": "kiszsidnyi forrsnl 2009",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/e2e60ebd_phoca_thumb_l_osztlyprogram_liliknl_2011.webp",
+    "thumb": "/images/t/e2e60ebd_phoca_thumb_l_osztlyprogram_liliknl_2011.webp",
+    "alt": "osztlyprogram liliknl 2011",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/060f3434_phoca_thumb_l_sg_hegy_2004.webp",
+    "thumb": "/images/t/060f3434_phoca_thumb_l_sg_hegy_2004.webp",
+    "alt": "sg hegy 2004",
+    "w": 467,
+    "h": 350
+   }
+  ],
+  "cover": "/images/a679d920_phoca_thumb_l_felscsatr_2006.webp"
+ },
+ {
+  "slug": "2012-farsang",
+  "title": "2012 farsang",
+  "year": 2012,
+  "images": [
+   {
+    "src": "/images/def85623_phoca_thumb_l_dsc00975.webp",
+    "thumb": "/images/t/def85623_phoca_thumb_l_dsc00975.webp",
+    "alt": "dsc00975",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/b020712e_phoca_thumb_l_dsc00976.webp",
+    "thumb": "/images/t/b020712e_phoca_thumb_l_dsc00976.webp",
+    "alt": "dsc00976",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/4677f640_phoca_thumb_l_dsc00977.webp",
+    "thumb": "/images/t/4677f640_phoca_thumb_l_dsc00977.webp",
+    "alt": "dsc00977",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/a84caf23_phoca_thumb_l_dsc00978.webp",
+    "thumb": "/images/t/a84caf23_phoca_thumb_l_dsc00978.webp",
+    "alt": "dsc00978",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/c80b1d93_phoca_thumb_l_dsc00979.webp",
+    "thumb": "/images/t/c80b1d93_phoca_thumb_l_dsc00979.webp",
+    "alt": "dsc00979",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/ffba8b19_phoca_thumb_l_dsc00980.webp",
+    "thumb": "/images/t/ffba8b19_phoca_thumb_l_dsc00980.webp",
+    "alt": "dsc00980",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/50447b3b_phoca_thumb_l_dsc00981.webp",
+    "thumb": "/images/t/50447b3b_phoca_thumb_l_dsc00981.webp",
+    "alt": "dsc00981",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/a3700aa8_phoca_thumb_l_dsc00982.webp",
+    "thumb": "/images/t/a3700aa8_phoca_thumb_l_dsc00982.webp",
+    "alt": "dsc00982",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/cb84d5d0_phoca_thumb_l_dsc00983.webp",
+    "thumb": "/images/t/cb84d5d0_phoca_thumb_l_dsc00983.webp",
+    "alt": "dsc00983",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/a1887c8e_phoca_thumb_l_dsc00984.webp",
+    "thumb": "/images/t/a1887c8e_phoca_thumb_l_dsc00984.webp",
+    "alt": "dsc00984",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/5c409bc4_phoca_thumb_l_dsc00985.webp",
+    "thumb": "/images/t/5c409bc4_phoca_thumb_l_dsc00985.webp",
+    "alt": "dsc00985",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/a5fd8649_phoca_thumb_l_dsc00986.webp",
+    "thumb": "/images/t/a5fd8649_phoca_thumb_l_dsc00986.webp",
+    "alt": "dsc00986",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/dc462545_phoca_thumb_l_dsc00987.webp",
+    "thumb": "/images/t/dc462545_phoca_thumb_l_dsc00987.webp",
+    "alt": "dsc00987",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/9bb88cf6_phoca_thumb_l_dsc00988.webp",
+    "thumb": "/images/t/9bb88cf6_phoca_thumb_l_dsc00988.webp",
+    "alt": "dsc00988",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/acb2aa41_phoca_thumb_l_dsc00989.webp",
+    "thumb": "/images/t/acb2aa41_phoca_thumb_l_dsc00989.webp",
+    "alt": "dsc00989",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/f3a53c1b_phoca_thumb_l_dsc00990.webp",
+    "thumb": "/images/t/f3a53c1b_phoca_thumb_l_dsc00990.webp",
+    "alt": "dsc00990",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/60992314_phoca_thumb_l_dsc00991.webp",
+    "thumb": "/images/t/60992314_phoca_thumb_l_dsc00991.webp",
+    "alt": "dsc00991",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/4c43e0fd_phoca_thumb_l_dsc00992.webp",
+    "thumb": "/images/t/4c43e0fd_phoca_thumb_l_dsc00992.webp",
+    "alt": "dsc00992",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/6d4b4bca_phoca_thumb_l_dsc01001.webp",
+    "thumb": "/images/t/6d4b4bca_phoca_thumb_l_dsc01001.webp",
+    "alt": "dsc01001",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/9903cbd6_phoca_thumb_l_dsc01007.webp",
+    "thumb": "/images/t/9903cbd6_phoca_thumb_l_dsc01007.webp",
+    "alt": "dsc01007",
+    "w": 217,
+    "h": 350
+   },
+   {
+    "src": "/images/33a5ecd5_phoca_thumb_l_dsc01026.webp",
+    "thumb": "/images/t/33a5ecd5_phoca_thumb_l_dsc01026.webp",
+    "alt": "dsc01026",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/c29a93c2_phoca_thumb_l_dsc01027.webp",
+    "thumb": "/images/t/c29a93c2_phoca_thumb_l_dsc01027.webp",
+    "alt": "dsc01027",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/1e9107d4_phoca_thumb_l_dsc01030.webp",
+    "thumb": "/images/t/1e9107d4_phoca_thumb_l_dsc01030.webp",
+    "alt": "dsc01030",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/f5776189_phoca_thumb_l_dsc01035.webp",
+    "thumb": "/images/t/f5776189_phoca_thumb_l_dsc01035.webp",
+    "alt": "dsc01035",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/fc2f7519_phoca_thumb_l_dsc01045.webp",
+    "thumb": "/images/t/fc2f7519_phoca_thumb_l_dsc01045.webp",
+    "alt": "dsc01045",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/7b9c61eb_phoca_thumb_l_dsc01055.webp",
+    "thumb": "/images/t/7b9c61eb_phoca_thumb_l_dsc01055.webp",
+    "alt": "dsc01055",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/2e66245b_phoca_thumb_l_dsc01058.webp",
+    "thumb": "/images/t/2e66245b_phoca_thumb_l_dsc01058.webp",
+    "alt": "dsc01058",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/176b451f_phoca_thumb_l_dsc01060.webp",
+    "thumb": "/images/t/176b451f_phoca_thumb_l_dsc01060.webp",
+    "alt": "dsc01060",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/a00c5fff_phoca_thumb_l_dsc01065.webp",
+    "thumb": "/images/t/a00c5fff_phoca_thumb_l_dsc01065.webp",
+    "alt": "dsc01065",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/a95b0474_phoca_thumb_l_dsc01066.webp",
+    "thumb": "/images/t/a95b0474_phoca_thumb_l_dsc01066.webp",
+    "alt": "dsc01066",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/ffdee34a_phoca_thumb_l_dsc01068.webp",
+    "thumb": "/images/t/ffdee34a_phoca_thumb_l_dsc01068.webp",
+    "alt": "dsc01068",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/fea0cdaa_phoca_thumb_l_dsc01075.webp",
+    "thumb": "/images/t/fea0cdaa_phoca_thumb_l_dsc01075.webp",
+    "alt": "dsc01075",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/614d5d72_phoca_thumb_l_dsc01081.webp",
+    "thumb": "/images/t/614d5d72_phoca_thumb_l_dsc01081.webp",
+    "alt": "dsc01081",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/5cd79e28_phoca_thumb_l_dsc01084.webp",
+    "thumb": "/images/t/5cd79e28_phoca_thumb_l_dsc01084.webp",
+    "alt": "dsc01084",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/8d360820_phoca_thumb_l_dsc01089.webp",
+    "thumb": "/images/t/8d360820_phoca_thumb_l_dsc01089.webp",
+    "alt": "dsc01089",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/fe956f55_phoca_thumb_l_dsc01099.webp",
+    "thumb": "/images/t/fe956f55_phoca_thumb_l_dsc01099.webp",
+    "alt": "dsc01099",
+    "w": 479,
+    "h": 350
+   },
+   {
+    "src": "/images/9c8db3a2_phoca_thumb_l_dsc01103.webp",
+    "thumb": "/images/t/9c8db3a2_phoca_thumb_l_dsc01103.webp",
+    "alt": "dsc01103",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/d0d93afc_phoca_thumb_l_dsc01104.webp",
+    "thumb": "/images/t/d0d93afc_phoca_thumb_l_dsc01104.webp",
+    "alt": "dsc01104",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/e200ac6c_phoca_thumb_l_dsc01131.webp",
+    "thumb": "/images/t/e200ac6c_phoca_thumb_l_dsc01131.webp",
+    "alt": "dsc01131",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/acb52bc5_phoca_thumb_l_dsc01146.webp",
+    "thumb": "/images/t/acb52bc5_phoca_thumb_l_dsc01146.webp",
+    "alt": "dsc01146",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/f3083b1f_phoca_thumb_l_dsc01165.webp",
+    "thumb": "/images/t/f3083b1f_phoca_thumb_l_dsc01165.webp",
+    "alt": "dsc01165",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/3b12ce23_phoca_thumb_l_dsc01167.webp",
+    "thumb": "/images/t/3b12ce23_phoca_thumb_l_dsc01167.webp",
+    "alt": "dsc01167",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/ee2faade_phoca_thumb_l_dsc01170.webp",
+    "thumb": "/images/t/ee2faade_phoca_thumb_l_dsc01170.webp",
+    "alt": "dsc01170",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/89196757_phoca_thumb_l_dsc01182.webp",
+    "thumb": "/images/t/89196757_phoca_thumb_l_dsc01182.webp",
+    "alt": "dsc01182",
+    "w": 350,
+    "h": 263
+   }
+  ],
+  "cover": "/images/def85623_phoca_thumb_l_dsc00975.webp"
+ },
+ {
+  "slug": "vakeger-internetes-verseny",
+  "title": "\"Vakegér\" Internetes verseny",
+  "year": null,
+  "images": [
+   {
+    "src": "/images/6ee5dae6_phoca_thumb_l_a-zsirai-csapat.webp",
+    "thumb": "/images/t/6ee5dae6_phoca_thumb_l_a-zsirai-csapat.webp",
+    "alt": "a-zsirai-csapat",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/1b2ae617_phoca_thumb_l_bozo-dominik-negyedik.webp",
+    "thumb": "/images/t/1b2ae617_phoca_thumb_l_bozo-dominik-negyedik.webp",
+    "alt": "bozo-dominik-negyedik",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/90634d49_phoca_thumb_l_megnyito.webp",
+    "thumb": "/images/t/90634d49_phoca_thumb_l_megnyito.webp",
+    "alt": "megnyito",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/ccd4e979_phoca_thumb_l_szilgyi-emil-otodik.webp",
+    "thumb": "/images/t/ccd4e979_phoca_thumb_l_szilgyi-emil-otodik.webp",
+    "alt": "szilgyi-emil-otodik",
+    "w": 467,
+    "h": 350
+   }
+  ],
+  "cover": "/images/6ee5dae6_phoca_thumb_l_a-zsirai-csapat.webp"
+ },
+ {
+  "slug": "viz-vilagnapja-orszagos-internetes-verseny-2012",
+  "title": "Víz világnapja országos internetes verseny 2012",
+  "year": 2012,
+  "images": [
+   {
+    "src": "/images/8c011bef_phoca_thumb_l_vz-vilgnap-1.webp",
+    "thumb": "/images/t/8c011bef_phoca_thumb_l_vz-vilgnap-1.webp",
+    "alt": "vz-vilgnap-1",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/5f3f691e_phoca_thumb_l_vz-vilgnap-2.webp",
+    "thumb": "/images/t/5f3f691e_phoca_thumb_l_vz-vilgnap-2.webp",
+    "alt": "vz-vilgnap-2",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/3f5bf6a0_phoca_thumb_l_vz-vilgnap-3.webp",
+    "thumb": "/images/t/3f5bf6a0_phoca_thumb_l_vz-vilgnap-3.webp",
+    "alt": "vz-vilgnap-3",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/ffe07281_phoca_thumb_l_vz-vilgnap-8.webp",
+    "thumb": "/images/t/ffe07281_phoca_thumb_l_vz-vilgnap-8.webp",
+    "alt": "vz-vilgnap-8",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/4dcef69c_phoca_thumb_l_vz-vilgnap-9.webp",
+    "thumb": "/images/t/4dcef69c_phoca_thumb_l_vz-vilgnap-9.webp",
+    "alt": "vz-vilgnap-9",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/a421171e_phoca_thumb_l_vz-vilgnap-10.webp",
+    "thumb": "/images/t/a421171e_phoca_thumb_l_vz-vilgnap-10.webp",
+    "alt": "vz-vilgnap-10",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/958936df_phoca_thumb_l_vz-vilgnap-2012-4.webp",
+    "thumb": "/images/t/958936df_phoca_thumb_l_vz-vilgnap-2012-4.webp",
+    "alt": "vz-vilgnap-2012-4",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/5873b424_phoca_thumb_l_vz-vilgnap-2012-5.webp",
+    "thumb": "/images/t/5873b424_phoca_thumb_l_vz-vilgnap-2012-5.webp",
+    "alt": "vz-vilgnap-2012-5",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/20a188da_phoca_thumb_l_vz-vilgnap-2012-6.webp",
+    "thumb": "/images/t/20a188da_phoca_thumb_l_vz-vilgnap-2012-6.webp",
+    "alt": "vz-vilgnap-2012-6",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/0d0ce326_phoca_thumb_l_vz-vilgnap-2012-7.webp",
+    "thumb": "/images/t/0d0ce326_phoca_thumb_l_vz-vilgnap-2012-7.webp",
+    "alt": "vz-vilgnap-2012-7",
+    "w": 467,
+    "h": 350
+   }
+  ],
+  "cover": "/images/8c011bef_phoca_thumb_l_vz-vilgnap-1.webp"
+ },
+ {
+  "slug": "alsos-fold-napja-2013",
+  "title": "Alsós Föld Napja 2013",
+  "year": 2013,
+  "images": [
+   {
+    "src": "/images/d8b3c7d3_phoca_thumb_l_1.webp",
+    "thumb": "/images/t/d8b3c7d3_phoca_thumb_l_1.webp",
+    "alt": "indulás",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/2a720f40_phoca_thumb_l_7.webp",
+    "thumb": "/images/t/2a720f40_phoca_thumb_l_7.webp",
+    "alt": "gyalogtúra",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/2bd3bca7_phoca_thumb_l_8.webp",
+    "thumb": "/images/t/2bd3bca7_phoca_thumb_l_8.webp",
+    "alt": "gyalogtúra2",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/6d66a5a8_phoca_thumb_l_9.webp",
+    "thumb": "/images/t/6d66a5a8_phoca_thumb_l_9.webp",
+    "alt": "Megérkeztünk",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/6d66a5a8_phoca_thumb_l_9.webp",
+    "thumb": "/images/t/6d66a5a8_phoca_thumb_l_9.webp",
+    "alt": "megérkeztünk",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/5fb2d633_phoca_thumb_l_12.webp",
+    "thumb": "/images/t/5fb2d633_phoca_thumb_l_12.webp",
+    "alt": "bemutató",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/05e5d78c_phoca_thumb_l_14.webp",
+    "thumb": "/images/t/05e5d78c_phoca_thumb_l_14.webp",
+    "alt": "bemutató2",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/4b9584bd_phoca_thumb_l_19.webp",
+    "thumb": "/images/t/4b9584bd_phoca_thumb_l_19.webp",
+    "alt": "bemutato3",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/d20b4218_phoca_thumb_l_22.webp",
+    "thumb": "/images/t/d20b4218_phoca_thumb_l_22.webp",
+    "alt": "bemutato4",
+    "w": 263,
+    "h": 350
+   },
+   {
+    "src": "/images/224cc5ec_phoca_thumb_l_26.webp",
+    "thumb": "/images/t/224cc5ec_phoca_thumb_l_26.webp",
+    "alt": "Milán és a galamb",
+    "w": 263,
+    "h": 350
+   },
+   {
+    "src": "/images/b8126d38_phoca_thumb_l_28.webp",
+    "thumb": "/images/t/b8126d38_phoca_thumb_l_28.webp",
+    "alt": "Und felé tartunk",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/9a3552f4_phoca_thumb_l_30.webp",
+    "thumb": "/images/t/9a3552f4_phoca_thumb_l_30.webp",
+    "alt": "vetélkedő_1",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/3da0f51b_phoca_thumb_l_31.webp",
+    "thumb": "/images/t/3da0f51b_phoca_thumb_l_31.webp",
+    "alt": "vetélkedő_2",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/3140b5e5_phoca_thumb_l_37.webp",
+    "thumb": "/images/t/3140b5e5_phoca_thumb_l_37.webp",
+    "alt": "Az undi tó partján",
+    "w": 467,
+    "h": 350
+   }
+  ],
+  "cover": "/images/d8b3c7d3_phoca_thumb_l_1.webp"
+ },
+ {
+  "slug": "erdei-iskola-2013",
+  "title": "Erdei iskola 2013",
+  "year": 2013,
+  "images": [
+   {
+    "src": "/images/f246d3ae_phoca_thumb_l_erdeiiskola-233.webp",
+    "thumb": "/images/t/f246d3ae_phoca_thumb_l_erdeiiskola-233.webp",
+    "alt": "erdeiiskola-233",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/637d3575_phoca_thumb_l_erdeiiskola29.webp",
+    "thumb": "/images/t/637d3575_phoca_thumb_l_erdeiiskola29.webp",
+    "alt": "erdeiiskola29",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/ed795821_phoca_thumb_l_erdeiiskola51.webp",
+    "thumb": "/images/t/ed795821_phoca_thumb_l_erdeiiskola51.webp",
+    "alt": "erdeiiskola51",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/019b52f8_phoca_thumb_l_erdeiiskola85.webp",
+    "thumb": "/images/t/019b52f8_phoca_thumb_l_erdeiiskola85.webp",
+    "alt": "erdeiiskola85",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/6887312c_phoca_thumb_l_erdeiiskola94.webp",
+    "thumb": "/images/t/6887312c_phoca_thumb_l_erdeiiskola94.webp",
+    "alt": "erdeiiskola94",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/ee7b5df3_phoca_thumb_l_erdeiiskola116.webp",
+    "thumb": "/images/t/ee7b5df3_phoca_thumb_l_erdeiiskola116.webp",
+    "alt": "erdeiiskola116",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/cbbc570b_phoca_thumb_l_erdeiiskola174.webp",
+    "thumb": "/images/t/cbbc570b_phoca_thumb_l_erdeiiskola174.webp",
+    "alt": "erdeiiskola174",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/6cb3aea4_phoca_thumb_l_erdeiiskola255.webp",
+    "thumb": "/images/t/6cb3aea4_phoca_thumb_l_erdeiiskola255.webp",
+    "alt": "erdeiiskola255",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/25e97f51_phoca_thumb_l_erdeiiskola291.webp",
+    "thumb": "/images/t/25e97f51_phoca_thumb_l_erdeiiskola291.webp",
+    "alt": "erdeiiskola291",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/f246d3ae_phoca_thumb_l_erdeiiskola-233.webp"
+ },
+ {
+  "slug": "tehetseggondozo-tabor-mosonmagyarovaron",
+  "title": "Tehetséggondozó tábor Mosonmagyaróváron",
+  "year": null,
+  "images": [
+   {
+    "src": "/images/133e4033_phoca_thumb_l_1ovar.webp",
+    "thumb": "/images/t/133e4033_phoca_thumb_l_1ovar.webp",
+    "alt": "1",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/fae8b745_phoca_thumb_l_2ovar.webp",
+    "thumb": "/images/t/fae8b745_phoca_thumb_l_2ovar.webp",
+    "alt": "2",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/59bdf299_phoca_thumb_l_3ovar.webp",
+    "thumb": "/images/t/59bdf299_phoca_thumb_l_3ovar.webp",
+    "alt": "3",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/e47788f0_phoca_thumb_l_4ovar.webp",
+    "thumb": "/images/t/e47788f0_phoca_thumb_l_4ovar.webp",
+    "alt": "4",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/89b55418_phoca_thumb_l_5ovar.webp",
+    "thumb": "/images/t/89b55418_phoca_thumb_l_5ovar.webp",
+    "alt": "5",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/25ef643e_phoca_thumb_l_6ovar.webp",
+    "thumb": "/images/t/25ef643e_phoca_thumb_l_6ovar.webp",
+    "alt": "6",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/4f76ee6b_phoca_thumb_l_7ovar.webp",
+    "thumb": "/images/t/4f76ee6b_phoca_thumb_l_7ovar.webp",
+    "alt": "7",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/aa0be168_phoca_thumb_l_8ovar.webp",
+    "thumb": "/images/t/aa0be168_phoca_thumb_l_8ovar.webp",
+    "alt": "8",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/49badf1e_phoca_thumb_l_9ovar.webp",
+    "thumb": "/images/t/49badf1e_phoca_thumb_l_9ovar.webp",
+    "alt": "9",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/2ae3cc36_phoca_thumb_l_10ovar.webp",
+    "thumb": "/images/t/2ae3cc36_phoca_thumb_l_10ovar.webp",
+    "alt": "10",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/dd7f10bc_phoca_thumb_l_11ovar.webp",
+    "thumb": "/images/t/dd7f10bc_phoca_thumb_l_11ovar.webp",
+    "alt": "11",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/c52e7b54_phoca_thumb_l_12ovar.webp",
+    "thumb": "/images/t/c52e7b54_phoca_thumb_l_12ovar.webp",
+    "alt": "12",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/abb93922_phoca_thumb_l_13ovar.webp",
+    "thumb": "/images/t/abb93922_phoca_thumb_l_13ovar.webp",
+    "alt": "13",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/8ec4da64_phoca_thumb_l_14ovar.webp",
+    "thumb": "/images/t/8ec4da64_phoca_thumb_l_14ovar.webp",
+    "alt": "14",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/1b3463a6_phoca_thumb_l_15ovar.webp",
+    "thumb": "/images/t/1b3463a6_phoca_thumb_l_15ovar.webp",
+    "alt": "15",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/5c29d882_phoca_thumb_l_16ovar.webp",
+    "thumb": "/images/t/5c29d882_phoca_thumb_l_16ovar.webp",
+    "alt": "16",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/66e488c4_phoca_thumb_l_17ovar.webp",
+    "thumb": "/images/t/66e488c4_phoca_thumb_l_17ovar.webp",
+    "alt": "17",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/9eb4dc1a_phoca_thumb_l_18ovar.webp",
+    "thumb": "/images/t/9eb4dc1a_phoca_thumb_l_18ovar.webp",
+    "alt": "18",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/7e8d23c5_phoca_thumb_l_19ovar.webp",
+    "thumb": "/images/t/7e8d23c5_phoca_thumb_l_19ovar.webp",
+    "alt": "19",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/5fe3b8bf_phoca_thumb_l_20ovar.webp",
+    "thumb": "/images/t/5fe3b8bf_phoca_thumb_l_20ovar.webp",
+    "alt": "20",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/329a2a6a_phoca_thumb_l_21ovar.webp",
+    "thumb": "/images/t/329a2a6a_phoca_thumb_l_21ovar.webp",
+    "alt": "21",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/e5e18893_phoca_thumb_l_22ovar.webp",
+    "thumb": "/images/t/e5e18893_phoca_thumb_l_22ovar.webp",
+    "alt": "22",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/1afd571a_phoca_thumb_l_23ovar.webp",
+    "thumb": "/images/t/1afd571a_phoca_thumb_l_23ovar.webp",
+    "alt": "23",
+    "w": 448,
+    "h": 299
+   },
+   {
+    "src": "/images/80740e6c_phoca_thumb_l_24ovar.webp",
+    "thumb": "/images/t/80740e6c_phoca_thumb_l_24ovar.webp",
+    "alt": "24",
+    "w": 448,
+    "h": 299
+   }
+  ],
+  "cover": "/images/133e4033_phoca_thumb_l_1ovar.webp"
+ },
+ {
+  "slug": "egeszseghet-2016",
+  "title": "Egészséghét 2016",
+  "year": 2016,
+  "images": [
+   {
+    "src": "/images/5e87e15f_phoca_thumb_l_1.webp",
+    "thumb": "/images/t/5e87e15f_phoca_thumb_l_1.webp",
+    "alt": "1",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/451f6e6e_phoca_thumb_l_2.webp",
+    "thumb": "/images/t/451f6e6e_phoca_thumb_l_2.webp",
+    "alt": "2",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/e6185522_phoca_thumb_l_3.webp",
+    "thumb": "/images/t/e6185522_phoca_thumb_l_3.webp",
+    "alt": "3",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/12130f38_phoca_thumb_l_4.webp",
+    "thumb": "/images/t/12130f38_phoca_thumb_l_4.webp",
+    "alt": "4",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/e96cc1af_phoca_thumb_l_5.webp",
+    "thumb": "/images/t/e96cc1af_phoca_thumb_l_5.webp",
+    "alt": "5",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/2e877c57_phoca_thumb_l_6.webp",
+    "thumb": "/images/t/2e877c57_phoca_thumb_l_6.webp",
+    "alt": "6",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/d5025c54_phoca_thumb_l_7.webp",
+    "thumb": "/images/t/d5025c54_phoca_thumb_l_7.webp",
+    "alt": "7",
+    "w": 467,
+    "h": 350
+   },
+   {
+    "src": "/images/cb3995f3_phoca_thumb_l_8.webp",
+    "thumb": "/images/t/cb3995f3_phoca_thumb_l_8.webp",
+    "alt": "8",
+    "w": 350,
+    "h": 467
+   },
+   {
+    "src": "/images/e518afb8_phoca_thumb_l_9.webp",
+    "thumb": "/images/t/e518afb8_phoca_thumb_l_9.webp",
+    "alt": "9",
+    "w": 467,
+    "h": 350
+   }
+  ],
+  "cover": "/images/5e87e15f_phoca_thumb_l_1.webp"
+ },
+ {
+  "slug": "nyelvi-nap-2017",
+  "title": "Nyelvi nap 2017",
+  "year": 2017,
+  "images": [
+   {
+    "src": "/images/d41beb2e_phoca_thumb_l_nynap.webp",
+    "thumb": "/images/t/d41beb2e_phoca_thumb_l_nynap.webp",
+    "alt": "nynap",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/4198ef09_phoca_thumb_l_ny1.webp",
+    "thumb": "/images/t/4198ef09_phoca_thumb_l_ny1.webp",
+    "alt": "ny1",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/dc20436e_phoca_thumb_l_ny2.webp",
+    "thumb": "/images/t/dc20436e_phoca_thumb_l_ny2.webp",
+    "alt": "ny2",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5827d2f4_phoca_thumb_l_ny3.webp",
+    "thumb": "/images/t/5827d2f4_phoca_thumb_l_ny3.webp",
+    "alt": "ny3",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b5f52744_phoca_thumb_l_ny4.webp",
+    "thumb": "/images/t/b5f52744_phoca_thumb_l_ny4.webp",
+    "alt": "ny4",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b8c5709d_phoca_thumb_l_ny5.webp",
+    "thumb": "/images/t/b8c5709d_phoca_thumb_l_ny5.webp",
+    "alt": "ny5",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/825ad903_phoca_thumb_l_ny6.webp",
+    "thumb": "/images/t/825ad903_phoca_thumb_l_ny6.webp",
+    "alt": "ny6",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/45279109_phoca_thumb_l_ny7.webp",
+    "thumb": "/images/t/45279109_phoca_thumb_l_ny7.webp",
+    "alt": "ny7",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/a7691d88_phoca_thumb_l_ny8.webp",
+    "thumb": "/images/t/a7691d88_phoca_thumb_l_ny8.webp",
+    "alt": "ny8",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/946b7841_phoca_thumb_l_ny9.webp",
+    "thumb": "/images/t/946b7841_phoca_thumb_l_ny9.webp",
+    "alt": "ny9",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/97769e92_phoca_thumb_l_ny10.webp",
+    "thumb": "/images/t/97769e92_phoca_thumb_l_ny10.webp",
+    "alt": "ny10",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/2adec24b_phoca_thumb_l_ny11.webp",
+    "thumb": "/images/t/2adec24b_phoca_thumb_l_ny11.webp",
+    "alt": "ny11",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/83df9a2c_phoca_thumb_l_ny12.webp",
+    "thumb": "/images/t/83df9a2c_phoca_thumb_l_ny12.webp",
+    "alt": "ny12",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/be41b595_phoca_thumb_l_ny13.webp",
+    "thumb": "/images/t/be41b595_phoca_thumb_l_ny13.webp",
+    "alt": "ny13",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/55180c13_phoca_thumb_l_ny14.webp",
+    "thumb": "/images/t/55180c13_phoca_thumb_l_ny14.webp",
+    "alt": "ny14",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b8cd7f28_phoca_thumb_l_ny15.webp",
+    "thumb": "/images/t/b8cd7f28_phoca_thumb_l_ny15.webp",
+    "alt": "ny15",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/62f2083d_phoca_thumb_l_ny16.webp",
+    "thumb": "/images/t/62f2083d_phoca_thumb_l_ny16.webp",
+    "alt": "ny16",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/19104072_phoca_thumb_l_ny17.webp",
+    "thumb": "/images/t/19104072_phoca_thumb_l_ny17.webp",
+    "alt": "ny17",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/51a197a8_phoca_thumb_l_ny18.webp",
+    "thumb": "/images/t/51a197a8_phoca_thumb_l_ny18.webp",
+    "alt": "ny18",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/3a2e8a6d_phoca_thumb_l_ny19.webp",
+    "thumb": "/images/t/3a2e8a6d_phoca_thumb_l_ny19.webp",
+    "alt": "ny19",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5dafcdb0_phoca_thumb_l_ny20.webp",
+    "thumb": "/images/t/5dafcdb0_phoca_thumb_l_ny20.webp",
+    "alt": "ny20",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/fd936c13_phoca_thumb_l_ny21.webp",
+    "thumb": "/images/t/fd936c13_phoca_thumb_l_ny21.webp",
+    "alt": "ny21",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/d952a5f7_phoca_thumb_l_ny22.webp",
+    "thumb": "/images/t/d952a5f7_phoca_thumb_l_ny22.webp",
+    "alt": "ny22",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/bee8dba9_phoca_thumb_l_ny23.webp",
+    "thumb": "/images/t/bee8dba9_phoca_thumb_l_ny23.webp",
+    "alt": "ny23",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/4d8fc126_phoca_thumb_l_ny24.webp",
+    "thumb": "/images/t/4d8fc126_phoca_thumb_l_ny24.webp",
+    "alt": "ny24",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5dd0f2f2_phoca_thumb_l_ny25.webp",
+    "thumb": "/images/t/5dd0f2f2_phoca_thumb_l_ny25.webp",
+    "alt": "ny25",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/f71c4863_phoca_thumb_l_ny26.webp",
+    "thumb": "/images/t/f71c4863_phoca_thumb_l_ny26.webp",
+    "alt": "ny26",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/3d9ea863_phoca_thumb_l_ny27.webp",
+    "thumb": "/images/t/3d9ea863_phoca_thumb_l_ny27.webp",
+    "alt": "ny27",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/ffe6695c_phoca_thumb_l_ny28.webp",
+    "thumb": "/images/t/ffe6695c_phoca_thumb_l_ny28.webp",
+    "alt": "ny28",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/112bcff8_phoca_thumb_l_ny29.webp",
+    "thumb": "/images/t/112bcff8_phoca_thumb_l_ny29.webp",
+    "alt": "ny29",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/01e42315_phoca_thumb_l_ny30.webp",
+    "thumb": "/images/t/01e42315_phoca_thumb_l_ny30.webp",
+    "alt": "ny30",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b38b8e47_phoca_thumb_l_ny31.webp",
+    "thumb": "/images/t/b38b8e47_phoca_thumb_l_ny31.webp",
+    "alt": "ny31",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/d41beb2e_phoca_thumb_l_nynap.webp"
+ },
+ {
+  "slug": "palyaorientacios-nap-2017",
+  "title": "Pályaorientációs nap 2017",
+  "year": 2017,
+  "images": [
+   {
+    "src": "/images/9d9924ce_phoca_thumb_l_dsc04055.webp",
+    "thumb": "/images/t/9d9924ce_phoca_thumb_l_dsc04055.webp",
+    "alt": "dsc04055",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/9d34ae6d_phoca_thumb_l_dsc04056.webp",
+    "thumb": "/images/t/9d34ae6d_phoca_thumb_l_dsc04056.webp",
+    "alt": "dsc04056",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/d4ccf3f0_phoca_thumb_l_dsc04057.webp",
+    "thumb": "/images/t/d4ccf3f0_phoca_thumb_l_dsc04057.webp",
+    "alt": "dsc04057",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/f15e36e4_phoca_thumb_l_dsc04062.webp",
+    "thumb": "/images/t/f15e36e4_phoca_thumb_l_dsc04062.webp",
+    "alt": "dsc04062",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/1c5b0bf4_phoca_thumb_l_dsc04066.webp",
+    "thumb": "/images/t/1c5b0bf4_phoca_thumb_l_dsc04066.webp",
+    "alt": "dsc04066",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/0bba2ee3_phoca_thumb_l_dsc04067.webp",
+    "thumb": "/images/t/0bba2ee3_phoca_thumb_l_dsc04067.webp",
+    "alt": "dsc04067",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/08cf7e0a_phoca_thumb_l_dsc04075.webp",
+    "thumb": "/images/t/08cf7e0a_phoca_thumb_l_dsc04075.webp",
+    "alt": "dsc04075",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/bf1d5eab_phoca_thumb_l_dsc04081.webp",
+    "thumb": "/images/t/bf1d5eab_phoca_thumb_l_dsc04081.webp",
+    "alt": "dsc04081",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/0b542751_phoca_thumb_l_plyaor.nap07.webp",
+    "thumb": "/images/t/0b542751_phoca_thumb_l_plyaor.nap07.webp",
+    "alt": "plyaor.nap07",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/1f8a6745_phoca_thumb_l_plyaor.nap08.webp",
+    "thumb": "/images/t/1f8a6745_phoca_thumb_l_plyaor.nap08.webp",
+    "alt": "plyaor.nap08",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/1192f736_phoca_thumb_l_plyaor.nap14.webp",
+    "thumb": "/images/t/1192f736_phoca_thumb_l_plyaor.nap14.webp",
+    "alt": "plyaor.nap14",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/a890c7fd_phoca_thumb_l_plyaor.nap15.webp",
+    "thumb": "/images/t/a890c7fd_phoca_thumb_l_plyaor.nap15.webp",
+    "alt": "plyaor.nap15",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/d746fe7a_phoca_thumb_l_plyaor.nap17.webp",
+    "thumb": "/images/t/d746fe7a_phoca_thumb_l_plyaor.nap17.webp",
+    "alt": "plyaor.nap17",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/9fda7934_phoca_thumb_l_plyaor.nap18.webp",
+    "thumb": "/images/t/9fda7934_phoca_thumb_l_plyaor.nap18.webp",
+    "alt": "plyaor.nap18",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/c944aa44_phoca_thumb_l_plyaor.nap22.webp",
+    "thumb": "/images/t/c944aa44_phoca_thumb_l_plyaor.nap22.webp",
+    "alt": "plyaor.nap22",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/8e3e28c0_phoca_thumb_l_plyaor.nap23.webp",
+    "thumb": "/images/t/8e3e28c0_phoca_thumb_l_plyaor.nap23.webp",
+    "alt": "plyaor.nap23",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/9094b6e2_phoca_thumb_l_plyaor.nap27.webp",
+    "thumb": "/images/t/9094b6e2_phoca_thumb_l_plyaor.nap27.webp",
+    "alt": "plyaor.nap27",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/e0e41faa_phoca_thumb_l_plyaor.nap32.webp",
+    "thumb": "/images/t/e0e41faa_phoca_thumb_l_plyaor.nap32.webp",
+    "alt": "plyaor.nap32",
+    "w": 600,
+    "h": 450
+   },
+   {
+    "src": "/images/53727a19_phoca_thumb_l_plyaor.nap37.webp",
+    "thumb": "/images/t/53727a19_phoca_thumb_l_plyaor.nap37.webp",
+    "alt": "plyaor.nap37",
+    "w": 600,
+    "h": 450
+   }
+  ],
+  "cover": "/images/9d9924ce_phoca_thumb_l_dsc04055.webp"
+ },
+ {
+  "slug": "csaladi-nap-2018",
+  "title": "Családi Nap 2018",
+  "year": 2018,
+  "images": [
+   {
+    "src": "/images/39496a8a_phoca_thumb_l_1.webp",
+    "thumb": "/images/t/39496a8a_phoca_thumb_l_1.webp",
+    "alt": "1",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/fc247c92_phoca_thumb_l_2.webp",
+    "thumb": "/images/t/fc247c92_phoca_thumb_l_2.webp",
+    "alt": "2",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/752a2dad_phoca_thumb_l_3.webp",
+    "thumb": "/images/t/752a2dad_phoca_thumb_l_3.webp",
+    "alt": "3",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/a3dcc192_phoca_thumb_l_4.webp",
+    "thumb": "/images/t/a3dcc192_phoca_thumb_l_4.webp",
+    "alt": "4",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/d278db97_phoca_thumb_l_5.webp",
+    "thumb": "/images/t/d278db97_phoca_thumb_l_5.webp",
+    "alt": "5",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/7aca4ea4_phoca_thumb_l_6.webp",
+    "thumb": "/images/t/7aca4ea4_phoca_thumb_l_6.webp",
+    "alt": "6",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/24439dd6_phoca_thumb_l_7.webp",
+    "thumb": "/images/t/24439dd6_phoca_thumb_l_7.webp",
+    "alt": "7",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b2af6feb_phoca_thumb_l_8.webp",
+    "thumb": "/images/t/b2af6feb_phoca_thumb_l_8.webp",
+    "alt": "8",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/39496a8a_phoca_thumb_l_1.webp"
+ },
+ {
+  "slug": "palyaorientacos-nap-2018",
+  "title": "Pályaorientácós nap 2018",
+  "year": 2018,
+  "images": [
+   {
+    "src": "/images/173f3a80_phoca_thumb_l_2018po1.webp",
+    "thumb": "/images/t/173f3a80_phoca_thumb_l_2018po1.webp",
+    "alt": "2018po1",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/f8a483af_phoca_thumb_l_2018po2.webp",
+    "thumb": "/images/t/f8a483af_phoca_thumb_l_2018po2.webp",
+    "alt": "2018po2",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/4f39a9b5_phoca_thumb_l_2018po3.webp",
+    "thumb": "/images/t/4f39a9b5_phoca_thumb_l_2018po3.webp",
+    "alt": "2018po3",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/df6fd852_phoca_thumb_l_2018po4.webp",
+    "thumb": "/images/t/df6fd852_phoca_thumb_l_2018po4.webp",
+    "alt": "2018po4",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/707fc72b_phoca_thumb_l_2018po5.webp",
+    "thumb": "/images/t/707fc72b_phoca_thumb_l_2018po5.webp",
+    "alt": "2018po5",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/77e78bed_phoca_thumb_l_2018po6.webp",
+    "thumb": "/images/t/77e78bed_phoca_thumb_l_2018po6.webp",
+    "alt": "2018po6",
+    "w": 500,
+    "h": 281
+   },
+   {
+    "src": "/images/412a06c9_phoca_thumb_l_2018po7.webp",
+    "thumb": "/images/t/412a06c9_phoca_thumb_l_2018po7.webp",
+    "alt": "2018po7",
+    "w": 600,
+    "h": 337
+   },
+   {
+    "src": "/images/9605239b_phoca_thumb_l_gy1.webp",
+    "thumb": "/images/t/9605239b_phoca_thumb_l_gy1.webp",
+    "alt": "gy1",
+    "w": 600,
+    "h": 337
+   },
+   {
+    "src": "/images/e9ee6372_phoca_thumb_l_gy2.webp",
+    "thumb": "/images/t/e9ee6372_phoca_thumb_l_gy2.webp",
+    "alt": "gy2",
+    "w": 600,
+    "h": 337
+   }
+  ],
+  "cover": "/images/173f3a80_phoca_thumb_l_2018po1.webp"
+ },
+ {
+  "slug": "2018-karacsony",
+  "title": "2018 Karácsony",
+  "year": 2018,
+  "images": [
+   {
+    "src": "/images/92180563_phoca_thumb_l_2019karacsony_2.webp",
+    "thumb": "/images/t/92180563_phoca_thumb_l_2019karacsony_2.webp",
+    "alt": "2019karacsony 2",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/4f123445_phoca_thumb_l_2019karacsony_3.webp",
+    "thumb": "/images/t/4f123445_phoca_thumb_l_2019karacsony_3.webp",
+    "alt": "2019karacsony 3",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/3f211d02_phoca_thumb_l_2019karacsony_4.webp",
+    "thumb": "/images/t/3f211d02_phoca_thumb_l_2019karacsony_4.webp",
+    "alt": "2019karacsony 4",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/61c33f00_phoca_thumb_l_2019karacsony_5.webp",
+    "thumb": "/images/t/61c33f00_phoca_thumb_l_2019karacsony_5.webp",
+    "alt": "2019karacsony 5",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/4848708f_phoca_thumb_l_2019karacsony_6.webp",
+    "thumb": "/images/t/4848708f_phoca_thumb_l_2019karacsony_6.webp",
+    "alt": "2019karacsony 6",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/4539cf30_phoca_thumb_l_2019karacsony_7.webp",
+    "thumb": "/images/t/4539cf30_phoca_thumb_l_2019karacsony_7.webp",
+    "alt": "2019karacsony 7",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/0ca96bc3_phoca_thumb_l_2019karacsony_8.webp",
+    "thumb": "/images/t/0ca96bc3_phoca_thumb_l_2019karacsony_8.webp",
+    "alt": "2019karacsony 8",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/bf85bf5a_phoca_thumb_l_2019karacsony_9.webp",
+    "thumb": "/images/t/bf85bf5a_phoca_thumb_l_2019karacsony_9.webp",
+    "alt": "2019karacsony 9",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/e6a70f29_phoca_thumb_l_2019karacsony_10.webp",
+    "thumb": "/images/t/e6a70f29_phoca_thumb_l_2019karacsony_10.webp",
+    "alt": "2019karacsony 10",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/a0cd6c61_phoca_thumb_l_2019karacsony_11.webp",
+    "thumb": "/images/t/a0cd6c61_phoca_thumb_l_2019karacsony_11.webp",
+    "alt": "2019karacsony 11",
+    "w": 360,
+    "h": 480
+   },
+   {
+    "src": "/images/ff87804e_phoca_thumb_l_2019karacsony_12.webp",
+    "thumb": "/images/t/ff87804e_phoca_thumb_l_2019karacsony_12.webp",
+    "alt": "2019karacsony 12",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/f13bd516_phoca_thumb_l_2019karacsony_13.webp",
+    "thumb": "/images/t/f13bd516_phoca_thumb_l_2019karacsony_13.webp",
+    "alt": "2019karacsony 13",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/976f8ecd_phoca_thumb_l_2019karacsony_14.webp",
+    "thumb": "/images/t/976f8ecd_phoca_thumb_l_2019karacsony_14.webp",
+    "alt": "2019karacsony 14",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/4ec2927f_phoca_thumb_l_2019karacsony_15.webp",
+    "thumb": "/images/t/4ec2927f_phoca_thumb_l_2019karacsony_15.webp",
+    "alt": "2019karacsony 15",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/7302e466_phoca_thumb_l_2019karacsony_16.webp",
+    "thumb": "/images/t/7302e466_phoca_thumb_l_2019karacsony_16.webp",
+    "alt": "2019karacsony 16",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5ffcc16b_phoca_thumb_l_2019karacsony_17.webp",
+    "thumb": "/images/t/5ffcc16b_phoca_thumb_l_2019karacsony_17.webp",
+    "alt": "2019karacsony 17",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/77519976_phoca_thumb_l_2019karacsony_18.webp",
+    "thumb": "/images/t/77519976_phoca_thumb_l_2019karacsony_18.webp",
+    "alt": "2019karacsony 18",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/92180563_phoca_thumb_l_2019karacsony_2.webp"
+ },
+ {
+  "slug": "farsang-2019",
+  "title": "Farsang 2019",
+  "year": 2019,
+  "images": [
+   {
+    "src": "/images/f8285721_phoca_thumb_l_2019farsang.webp",
+    "thumb": "/images/t/f8285721_phoca_thumb_l_2019farsang.webp",
+    "alt": "2019farsang",
+    "w": 500,
+    "h": 408
+   },
+   {
+    "src": "/images/66e9f032_phoca_thumb_l_2019farsang_2.webp",
+    "thumb": "/images/t/66e9f032_phoca_thumb_l_2019farsang_2.webp",
+    "alt": "2019farsang 2",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/54f03920_phoca_thumb_l_2019farsang_3.webp",
+    "thumb": "/images/t/54f03920_phoca_thumb_l_2019farsang_3.webp",
+    "alt": "2019farsang 3",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/f7df6b68_phoca_thumb_l_2019farsang_4.webp",
+    "thumb": "/images/t/f7df6b68_phoca_thumb_l_2019farsang_4.webp",
+    "alt": "2019farsang 4",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/b3c402ff_phoca_thumb_l_2019farsang_5.webp",
+    "thumb": "/images/t/b3c402ff_phoca_thumb_l_2019farsang_5.webp",
+    "alt": "2019farsang 5",
+    "w": 500,
+    "h": 358
+   },
+   {
+    "src": "/images/a26f242e_phoca_thumb_l_2019farsang_6.webp",
+    "thumb": "/images/t/a26f242e_phoca_thumb_l_2019farsang_6.webp",
+    "alt": "2019farsang 6",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/3f728ff4_phoca_thumb_l_2019farsang_7.webp",
+    "thumb": "/images/t/3f728ff4_phoca_thumb_l_2019farsang_7.webp",
+    "alt": "2019farsang 7",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/cdf0376e_phoca_thumb_l_2019farsang_8.webp",
+    "thumb": "/images/t/cdf0376e_phoca_thumb_l_2019farsang_8.webp",
+    "alt": "2019farsang 8",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/3b7b0cce_phoca_thumb_l_2019farsang_9.webp",
+    "thumb": "/images/t/3b7b0cce_phoca_thumb_l_2019farsang_9.webp",
+    "alt": "2019farsang 9",
+    "w": 500,
+    "h": 290
+   },
+   {
+    "src": "/images/f42c8551_phoca_thumb_l_2019farsang_10.webp",
+    "thumb": "/images/t/f42c8551_phoca_thumb_l_2019farsang_10.webp",
+    "alt": "2019farsang 10",
+    "w": 319,
+    "h": 480
+   },
+   {
+    "src": "/images/275091f4_phoca_thumb_l_2019farsang_11.webp",
+    "thumb": "/images/t/275091f4_phoca_thumb_l_2019farsang_11.webp",
+    "alt": "2019farsang 11",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/3d226655_phoca_thumb_l_2019farsang_12.webp",
+    "thumb": "/images/t/3d226655_phoca_thumb_l_2019farsang_12.webp",
+    "alt": "2019farsang 12",
+    "w": 500,
+    "h": 332
+   },
+   {
+    "src": "/images/bc1c2d7f_phoca_thumb_l_2019farsang_13.webp",
+    "thumb": "/images/t/bc1c2d7f_phoca_thumb_l_2019farsang_13.webp",
+    "alt": "2019farsang 13",
+    "w": 500,
+    "h": 332
+   }
+  ],
+  "cover": "/images/f8285721_phoca_thumb_l_2019farsang.webp"
+ },
+ {
+  "slug": "nyelvi-tabor-2019",
+  "title": "Nyelvi tábor 2019",
+  "year": 2019,
+  "images": [
+   {
+    "src": "/images/8e3bf48b_phoca_thumb_l_nyt1.webp",
+    "thumb": "/images/t/8e3bf48b_phoca_thumb_l_nyt1.webp",
+    "alt": "nyt1",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5bfec42b_phoca_thumb_l_nyt2.webp",
+    "thumb": "/images/t/5bfec42b_phoca_thumb_l_nyt2.webp",
+    "alt": "nyt2",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/69980387_phoca_thumb_l_nyt3.webp",
+    "thumb": "/images/t/69980387_phoca_thumb_l_nyt3.webp",
+    "alt": "nyt3",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/a1350b34_phoca_thumb_l_nyt4.webp",
+    "thumb": "/images/t/a1350b34_phoca_thumb_l_nyt4.webp",
+    "alt": "nyt4",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/5e7a7318_phoca_thumb_l_nyt5.webp",
+    "thumb": "/images/t/5e7a7318_phoca_thumb_l_nyt5.webp",
+    "alt": "nyt5",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/4564cd90_phoca_thumb_l_nyt6.webp",
+    "thumb": "/images/t/4564cd90_phoca_thumb_l_nyt6.webp",
+    "alt": "nyt6",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/edf4289f_phoca_thumb_l_nyt7.webp",
+    "thumb": "/images/t/edf4289f_phoca_thumb_l_nyt7.webp",
+    "alt": "nyt7",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/2a275e44_phoca_thumb_l_nyt8.webp",
+    "thumb": "/images/t/2a275e44_phoca_thumb_l_nyt8.webp",
+    "alt": "nyt8",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/6446411d_phoca_thumb_l_nyt9.webp",
+    "thumb": "/images/t/6446411d_phoca_thumb_l_nyt9.webp",
+    "alt": "nyt9",
+    "w": 359,
+    "h": 480
+   },
+   {
+    "src": "/images/6029969b_phoca_thumb_l_nyt10.webp",
+    "thumb": "/images/t/6029969b_phoca_thumb_l_nyt10.webp",
+    "alt": "nyt10",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/6515708a_phoca_thumb_l_nyt11.webp",
+    "thumb": "/images/t/6515708a_phoca_thumb_l_nyt11.webp",
+    "alt": "nyt11",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/b5cff406_phoca_thumb_l_nyt12.webp",
+    "thumb": "/images/t/b5cff406_phoca_thumb_l_nyt12.webp",
+    "alt": "nyt12",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/644033ac_phoca_thumb_l_nyt13.webp",
+    "thumb": "/images/t/644033ac_phoca_thumb_l_nyt13.webp",
+    "alt": "nyt13",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/ec63250d_phoca_thumb_l_nyt14.webp",
+    "thumb": "/images/t/ec63250d_phoca_thumb_l_nyt14.webp",
+    "alt": "nyt14",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/8f01893e_phoca_thumb_l_nyt15.webp",
+    "thumb": "/images/t/8f01893e_phoca_thumb_l_nyt15.webp",
+    "alt": "nyt15",
+    "w": 500,
+    "h": 375
+   },
+   {
+    "src": "/images/8d3dcb79_phoca_thumb_l_nyt16.webp",
+    "thumb": "/images/t/8d3dcb79_phoca_thumb_l_nyt16.webp",
+    "alt": "nyt16",
+    "w": 500,
+    "h": 375
+   }
+  ],
+  "cover": "/images/8e3bf48b_phoca_thumb_l_nyt1.webp"
+ },
+ {
+  "slug": "kerekparos-nap-2022",
+  "title": "Kerékpáros nap 2022",
+  "year": 2022,
+  "images": [
+   {
+    "src": "/images/4db7b9d1_phoca_thumb_l_bicikli1.webp",
+    "thumb": "/images/t/4db7b9d1_phoca_thumb_l_bicikli1.webp",
+    "alt": "bicikli1",
+    "w": 640,
+    "h": 443
+   },
+   {
+    "src": "/images/941d558b_phoca_thumb_l_bicikli2.webp",
+    "thumb": "/images/t/941d558b_phoca_thumb_l_bicikli2.webp",
+    "alt": "bicikli2",
+    "w": 640,
+    "h": 350
+   },
+   {
+    "src": "/images/c95bc30c_phoca_thumb_l_bicikli3.webp",
+    "thumb": "/images/t/c95bc30c_phoca_thumb_l_bicikli3.webp",
+    "alt": "bicikli3",
+    "w": 495,
+    "h": 480
+   },
+   {
+    "src": "/images/151fabc2_phoca_thumb_l_bicikli4.webp",
+    "thumb": "/images/t/151fabc2_phoca_thumb_l_bicikli4.webp",
+    "alt": "bicikli4",
+    "w": 640,
+    "h": 438
+   },
+   {
+    "src": "/images/81f5e467_phoca_thumb_l_bicikli5.webp",
+    "thumb": "/images/t/81f5e467_phoca_thumb_l_bicikli5.webp",
+    "alt": "bicikli5",
+    "w": 640,
+    "h": 428
+   }
+  ],
+  "cover": "/images/4db7b9d1_phoca_thumb_l_bicikli1.webp"
+ }
+]

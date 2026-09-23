@@ -1,0 +1,12 @@
+---
+import Page from '../layouts/Page.astro';
+import DocList from '../components/DocList.astro';
+import { dokumentumok, nyomtatvanyok } from '../data/iskola';
+---
+<Page title="Dokumentumok" section="informaciok" lead="Az iskola alapdokumentumai: munkaterv, házirend, pedagógiai program, SZMSZ, közzétételi lista és eljárásrendek.">
+  <DocList docs={dokumentumok} />
+  <h2 style="margin-top:2.5rem">Órarend</h2>
+  <DocList docs={[{ cim: 'Órarendek – 2026/2027. tanév I. félév', href: '/dokumentumok/or.pdf' }]} />
+  <h2 style="margin-top:2.5rem">Nyomtatványok</h2>
+  <DocList docs={nyomtatvanyok} />
+</Page>

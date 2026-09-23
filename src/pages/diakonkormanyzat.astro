@@ -1,0 +1,24 @@
+---
+import Page from '../layouts/Page.astro';
+import { dok } from '../data/iskola';
+---
+<Page title="Diákönkormányzat" section="iskolank" lead="Az iskolánkban működő és tevékenykedő diákönkormányzat a gyermekek érdekképviseleti szervezete. Feladata, hogy segítse a diákokat problémáik, gondjaik megoldásában.">
+  <div class="grid grid-2" style="margin-bottom:2rem">
+    <div class="card person"><span class="avatar sun">SM</span><div><div class="name">{dok.segitoPedagogus}</div><div class="role">a diákönkormányzat munkáját segítő pedagógus</div></div></div>
+    <div class="card person"><span class="avatar">{dok.elnok.split(' ').map((w) => w[0]).join('')}</span><div><div class="name">{dok.elnok}</div><div class="role">elnök</div></div></div>
+  </div>
+  <h2>Diák képviselők</h2>
+  <p class="muted">A tagokat az osztályközösségek évenként választják.</p>
+  <table class="table" style="margin-bottom:2.5rem">
+    <thead><tr><th>Osztály</th><th>Képviselők</th></tr></thead>
+    <tbody>{dok.kepviselok.map((k) => <tr><td>{k.osztaly}</td><td>{k.tagok.join(', ')}</td></tr>)}</tbody>
+  </table>
+  <h2>Diákönkormányzatunk céljai</h2>
+  <ol class="goals">{dok.celok.map((c) => <li>{c}</li>)}</ol>
+  <div class="notice" style="margin-top:2rem"><p>A DÖK szervezi többek között a papírgyűjtést, a pingpongbajnokságot, a DÖK-mozit és a farsangi programokat – ezekről a <a href="/hirek/">hírek</a> között olvashatnak.</p></div>
+</Page>
+<style>
+  .goals { counter-reset: g; list-style: none; padding: 0; display: grid; gap: .6rem; }
+  .goals li { counter-increment: g; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .8rem 1rem .8rem 3.4rem; position: relative; }
+  .goals li::before { content: counter(g); position: absolute; left: .9rem; top: .7rem; width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--green-100); color: var(--green-800); font-family: var(--font-head); font-weight: 700; display: grid; place-items: center; font-size: .9rem; }
+</style>

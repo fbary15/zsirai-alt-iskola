@@ -1,0 +1,36 @@
+---
+import { iskolankMenu, informaciokMenu, KRETA_URL } from '../data/nav';
+import { iskola } from '../data/iskola';
+interface Props { section?: 'iskolank' | 'informaciok' | 'none' }
+const { section = 'none' } = Astro.props;
+const path = Astro.url.pathname;
+const menu = section === 'iskolank' ? iskolankMenu : section === 'informaciok' ? informaciokMenu : [];
+const title = section === 'iskolank' ? 'Iskolánk' : 'Információk';
+---
+<aside class="aside">
+  {menu.length > 0 && (
+    <div class="card">
+      <h3>{title}</h3>
+      <ul>{menu.map((m) => <li><a href={m.href} aria-current={path === m.href ? 'page' : undefined}>{m.label}</a></li>)}</ul>
+    </div>
+  )}
+  <div class="card">
+    <h3>Elérhetőség</h3>
+    <p style="margin:0 0 .5rem"><strong>{iskola.nev}</strong><br />{iskola.cim}</p>
+    <p style="margin:0 0 .5rem">Tel.: <a href={iskola.telefonHref}>{iskola.telefon}</a><br />Fax: {iskola.fax}<br />OM: {iskola.om}</p>
+    <a class="btn btn-outline" href="/elerhetosegeink/" style="margin-top:.5rem">Kapcsolat, térkép</a>
+  </div>
+  <div class="card kreta">
+    <h3>E-napló</h3>
+    <p style="margin:0 0 .75rem">Jegyek, hiányzások, üzenetek a KRÉTA rendszerben.</p>
+    <a class="btn btn-sun" href={KRETA_URL} target="_blank" rel="noopener">Belépés a KRÉTA-ba</a>
+  </div>
+  <div class="card badges">
+    <img src="/images/de4d03d9_penz7.webp" alt="Iskolánk Pénz7 iskola" loading="lazy" />
+    <img src="/images/79c39a6c_h1.webp" alt="Határtalanul" loading="lazy" />
+  </div>
+</aside>
+<style>
+  .badges { display: flex; gap: .75rem; align-items: center; justify-content: center; flex-wrap: wrap; }
+  .badges img { max-width: 120px; }
+</style>

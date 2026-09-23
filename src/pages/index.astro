@@ -1,0 +1,182 @@
+---
+import Base from '../layouts/Base.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { aktualisHirek, galeria, formatDate } from '../lib/util';
+import { iskola, tanevRendje } from '../data/iskola';
+import { KRETA_URL } from '../data/nav';
+
+const friss = aktualisHirek.slice(0, 6);
+const kiemelt = friss[0];
+const tobbi = friss.slice(1, 6);
+const albumok = galeria.filter((g) => g.cover).slice(-4).reverse();
+const kozelgo = tanevRendje.esemenyek.slice(0, 4);
+---
+<Base>
+  <section class="hero">
+    <div class="container hero-in">
+      <div class="hero-text">
+        <span class="eyebrow" style="color:var(--sun)">Köszöntjük weblapunkon</span>
+        <h1>Zsirai Általános Iskola</h1>
+        <p class="lead">{iskola.szlogen}. Kis létszámú, családias iskola, ahol a tanulás mellett a nevelésre, a német nyelvre, a sportra és a művészetekre is nagy hangsúlyt fektetünk.</p>
+        <div class="hero-cta">
+          <a class="btn btn-sun" href="/hirek/">Aktuális hírek</a>
+          <a class="btn btn-ghost" href="/altalanos-ismerteto/">Ismerje meg iskolánkat</a>
+        </div>
+        <ul class="hero-facts">
+          <li><strong>8</strong><span>évfolyam</span></li>
+          <li><strong>1991</strong><span>óta nyolc osztállyal</span></li>
+          <li><strong>2.</strong><span>osztálytól német nyelv</span></li>
+        </ul>
+      </div>
+      <figure class="hero-img">
+        <img src="/images/dc9fb91b_iskolakep.webp" alt="A Zsirai Általános Iskola épülete" width="640" height="571" fetchpriority="high" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="quick container">
+    <a class="card q" href="/tanev-rendje/">
+      <span class="q-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+      <span><strong>A tanév rendje</strong><small>Szünetek, felvételi, beiratkozás</small></span>
+    </a>
+    <a class="card q" href="/dokumentumok/or.pdf" target="_blank" rel="noopener">
+      <span class="q-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+      <span><strong>Órarendek</strong><small>2026/27. tanév I. félév (PDF)</small></span>
+    </a>
+    <a class="card q" href="/dokumentumok/">
+      <span class="q-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg></span>
+      <span><strong>Dokumentumok</strong><small>Házirend, pedagógiai program, SZMSZ</small></span>
+    </a>
+    <a class="card q" href={KRETA_URL} target="_blank" rel="noopener">
+      <span class="q-ico sun"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+      <span><strong>KRÉTA e-napló</strong><small>Elektronikus ellenőrző belépés</small></span>
+    </a>
+  </section>
+
+  <section class="section container">
+    <div class="section-head">
+      <div><span class="eyebrow">Hírek, események</span><h2>Ez történt nálunk</h2></div>
+      <a class="btn btn-outline" href="/hirek/">Összes hír</a>
+    </div>
+    {kiemelt && (
+      <a class="card featured" href={`/hirek/${kiemelt.slug}/`}>
+        <div class="f-img">{kiemelt.cover && <img src={kiemelt.cover} alt="" />}</div>
+        <div class="f-body">
+          <div class="meta"><span class="tag sun">Legfrissebb</span> <time>{formatDate(kiemelt.date)}</time></div>
+          <h3>{kiemelt.title}</h3>
+          <p>{kiemelt.excerpt}</p>
+          <span class="more">Tovább olvasom →</span>
+        </div>
+      </a>
+    )}
+    <div class="grid grid-3" style="margin-top:1.5rem">
+      {tobbi.map((h, i) => <NewsCard hir={h} eager={i < 2} />)}
+    </div>
+  </section>
+
+  <section class="section split">
+    <div class="container split-in">
+      <div class="card dates">
+        <span class="eyebrow">{tanevRendje.tanev}. tanév</span>
+        <h2>Fontos időpontok</h2>
+        <ul class="timeline">
+          {kozelgo.map((e) => <li><span class="when">{e.mikor}</span><span><span class="what">{e.mi}</span>{e.megj && <p class="note">{e.megj}</p>}</span></li>)}
+        </ul>
+        <a class="btn btn-primary" href="/tanev-rendje/" style="margin-top:1.25rem">Teljes tanévrend</a>
+      </div>
+      <div class="about">
+        <span class="eyebrow">Iskolánkról</span>
+        <h2>Családias iskola az osztrák határ mellett</h2>
+        <p>Iskolánk 8 évfolyamos általános iskola, jelenlegi formájában 1991-ben alakult. Az osztrák határ közelsége miatt tanulóink már a második osztálytól tanulnak németet, a szomszédos Lutzmannsburg iskolájával pedig szoros partneri kapcsolatban állunk: minden nyáron közös nyelvi tábort rendezünk.</p>
+        <p>Fontosnak tartjuk a gyermekek egészséges fejlődését, ezért sportfoglalkozásaink száma alsó és felső tagozaton is meghaladja a szokásos mértéket. Szakköreinkkel a tehetséges tanulók fejlődését, fejlesztő pedagógusunkkal a megsegítésre szorulókat támogatjuk.</p>
+        <div class="chip-row">
+          <a class="chip" href="/dolgozoink/">Dolgozóink</a>
+          <a class="chip" href="/fogadoorak/">Fogadóórák</a>
+          <a class="chip" href="/diakonkormanyzat/">Diákönkormányzat</a>
+          <a class="chip" href="/szuloi-munkakozosseg/">Szülői munkaközösség</a>
+          <a class="chip" href="/galagonya/">Galagonya Alapítvány</a>
+          <a class="chip" href="/partnereink/">Partnereink</a>
+        </div>
+        <div class="badges">
+          <a href="/hirek/hatartalanul-szlovakiaban/" title="Határtalanul program"><img src="/images/79c39a6c_h1.webp" alt="Határtalanul program" loading="lazy" /></a>
+          <img src="/images/de4d03d9_penz7.webp" alt="Iskolánk Pénz7 iskola" loading="lazy" />
+          <img src="/images/a62c370c_h2.webp" alt="Bethlen Gábor Alapkezelő" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {albumok.length > 0 && (
+    <section class="section container">
+      <div class="section-head">
+        <div><span class="eyebrow">Galéria</span><h2>Képek az iskola életéből</h2></div>
+        <a class="btn btn-outline" href="/galeria/">Összes album</a>
+      </div>
+      <div class="grid grid-4">
+        {albumok.map((a) => <a class="card album" href={`/galeria/${a.slug}/`}><img src={a.images[0].thumb} alt="" width="640" height="480" loading="lazy" decoding="async" /><span class="cap">{a.title}<small>{a.images.length} kép</small></span></a>)}
+      </div>
+    </section>
+  )}
+
+  <section class="section container">
+    <div class="card contact-strip">
+      <div>
+        <span class="eyebrow">Kapcsolat</span>
+        <h2 style="margin:0">Kérdése van? Keressen minket!</h2>
+        <p style="margin:.5rem 0 0">{iskola.cim} · Telefon: <a href={iskola.telefonHref}>{iskola.telefon}</a> · OM: {iskola.om}</p>
+      </div>
+      <a class="btn btn-primary" href="/elerhetosegeink/">Elérhetőségeink</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { background: linear-gradient(120deg, var(--green-900) 0%, var(--green-700) 60%, #2f8f52 100%); color: #fff; position: relative; overflow: hidden; }
+  .hero::before { content: ""; position: absolute; inset: -20% auto auto -10%; width: 50%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(139,195,74,.35), transparent 65%); }
+  .hero::after { content: ""; position: absolute; right: -8%; bottom: -50%; width: 55%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(242,182,50,.25), transparent 65%); }
+  .hero-in { position: relative; display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: center; padding: clamp(2.5rem, 7vw, 5.5rem) 0; }
+  .hero h1 { color: #fff; font-size: clamp(2.3rem, 5vw, 3.6rem); margin: .3rem 0 .75rem; }
+  .hero .lead { font-size: 1.2rem; opacity: .92; max-width: 56ch; margin-bottom: 1.5rem; }
+  .hero-cta { display: flex; gap: .75rem; flex-wrap: wrap; }
+  .hero-facts { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; gap: 2rem; flex-wrap: wrap; }
+  .hero-facts li { display: flex; flex-direction: column; line-height: 1.1; }
+  .hero-facts strong { font-family: var(--font-head); font-size: 2rem; color: var(--sun); }
+  .hero-facts span { font-size: .9rem; opacity: .85; }
+  .hero-img { margin: 0; border-radius: 22px; overflow: hidden; box-shadow: var(--shadow-lg); transform: rotate(1.5deg); border: 6px solid rgba(255,255,255,.9); }
+  .hero-img img { width: 100%; aspect-ratio: 4/3.4; object-fit: cover; }
+  @media (max-width: 860px) { .hero-in { grid-template-columns: 1fr; } .hero-img { max-width: 520px; transform: none; } }
+
+  .quick { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: -2rem; position: relative; z-index: 2; }
+  .q { display: flex; align-items: center; gap: .9rem; padding: 1rem 1.1rem; text-decoration: none; color: inherit; transition: .18s; }
+  .q:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+  .q strong { display: block; font-family: var(--font-head); color: var(--green-900); }
+  .q small { color: var(--muted); font-size: .85rem; }
+  .q-ico { flex: 0 0 46px; width: 46px; height: 46px; border-radius: 12px; background: var(--green-100); color: var(--green-700); display: grid; place-items: center; }
+  .q-ico.sun { background: var(--sun-100); color: #7a5300; }
+  .q-ico svg { width: 24px; height: 24px; }
+  @media (max-width: 960px) { .quick { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .quick { grid-template-columns: 1fr; margin-top: 1.5rem; } }
+
+  .featured { display: grid; grid-template-columns: 1.1fr 1fr; overflow: hidden; text-decoration: none; color: inherit; transition: .2s; }
+  .featured:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+  .f-img { background: var(--green-50); min-height: 280px; }
+  .f-img img { width: 100%; height: 100%; object-fit: cover; }
+  .f-body { padding: 2rem; display: flex; flex-direction: column; gap: .6rem; }
+  .f-body h3 { font-size: 1.6rem; margin: 0; }
+  .f-body p { color: var(--ink-2); margin: 0; }
+  .f-body .meta { display: flex; gap: .6rem; align-items: center; font-size: .85rem; color: var(--muted); font-family: var(--font-head); }
+  .f-body .more { margin-top: auto; padding-top: .75rem; font-family: var(--font-head); font-weight: 600; color: var(--green-700); }
+  @media (max-width: 760px) { .featured { grid-template-columns: 1fr; } .f-img { min-height: 200px; } }
+
+  .split { background: var(--green-50); }
+  .split-in { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(1.5rem, 5vw, 4rem); align-items: start; }
+  .dates { padding: 1.75rem; }
+  .dates .timeline li { padding: .7rem 0; border-bottom: 1px solid var(--line); background: none; box-shadow: none; }
+  .dates .timeline li:last-child { border-bottom: 0; }
+  .about p { font-size: 1.08rem; color: var(--ink-2); }
+  .badges { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; margin-top: 1.5rem; }
+  .badges img { max-width: 130px; background: #fff; padding: 8px; border-radius: 10px; box-shadow: var(--shadow-sm); }
+  @media (max-width: 860px) { .split-in { grid-template-columns: 1fr; } }
+
+  .contact-strip { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; padding: 2rem; flex-wrap: wrap; background: linear-gradient(120deg, #fff, var(--sun-100)); }
+</style>

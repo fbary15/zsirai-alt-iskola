@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHero from '../../../components/PageHero.astro';
+import NewsList from '../../../components/NewsList.astro';
+import { aktualisHirek, PAGE_SIZE } from '../../../lib/util';
+
+export function getStaticPaths() {
+  const total = Math.ceil(aktualisHirek.length / PAGE_SIZE);
+  return Array.from({ length: total - 1 }, (_, i) => ({ params: { page: String(i + 2) } }));
+}
+const page = Number(Astro.params.page);
+const total = Math.ceil(aktualisHirek.length / PAGE_SIZE);
+const items = aktualisHirek.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+---
+<Base title={`Hírek – ${page}. oldal`}>
+  <PageHero title="Hírek, események" lead={`${page}. oldal a ${total}-ból`} crumbs={[{ label: 'Hírek', href: '/hirek/' }]} />
+  <div class="container page-body">
+    <NewsList items={items} page={page} total={total} base="/hirek/" />
+  </div>
+</Base>
