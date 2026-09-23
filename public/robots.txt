@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://www.iskola.zsira.hu/sitemap-index.xml

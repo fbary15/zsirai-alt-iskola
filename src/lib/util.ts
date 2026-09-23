@@ -1,19 +1,23 @@
-import hirekRaw from '../data/hirek.json';
-import galeriaRaw from '../data/galeria.json';
-import pagesRaw from '../data/pages.json';
+import hirekRaw from '@/data/hirek.json';
+import galeriaRaw from '@/data/galeria.json';
+import pagesRaw from '@/data/pages.json';
 
 export type Hir = {
   id: number; slug: string; title: string; date: string | null;
   category: 'info' | 'aktualis' | 'archivum'; featured: boolean;
   cover: string | null; coverThumb: string | null; excerpt: string; html: string;
 };
-export type Album = { slug: string; title: string; year: number | null; cover: string | null; images: { src: string; thumb: string; alt: string; w: number; h: number }[] };
+export type AlbumImage = { src: string; thumb: string; alt: string; w: number; h: number };
+export type Album = { slug: string; title: string; year: number | null; cover: string | null; images: AlbumImage[] };
 
 export const hirek = hirekRaw as Hir[];
 export const aktualisHirek = hirek.filter((h) => h.category !== 'archivum');
 export const archivHirek = hirek.filter((h) => h.category === 'archivum');
 export const galeria = galeriaRaw as Album[];
 export const pages = pagesRaw as Record<string, { title: string; html: string }>;
+
+export const SITE_URL = 'https://www.iskola.zsira.hu';
+export const PAGE_SIZE = 12;
 
 const HONAPOK = ['január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus', 'szeptember', 'október', 'november', 'december'];
 
@@ -31,8 +35,10 @@ export function tanev(iso: string | null): string {
   return `${start}/${start + 1}`;
 }
 
-export const PAGE_SIZE = 12;
-
 export function categoryLabel(c: Hir['category']): string {
   return c === 'info' ? 'Információ' : c === 'aktualis' ? 'Aktuális' : 'Archívum';
+}
+
+export function abs(path: string): string {
+  return new URL(path, SITE_URL).toString();
 }

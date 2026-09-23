@@ -1,8 +1,0 @@
----
-import Page from '../layouts/Page.astro';
-import { pages } from '../lib/util';
-const p = pages['szemelyi-igazolvanyokrol'];
----
-<Page title="Személyi igazolványokról" section="informaciok" lead="A Közigazgatási és Elektronikus Közszolgáltatások Központi Hivatalának tájékoztatója a 14 éven aluli gyermekek személyazonosító igazolványának igényléséről.">
-  <div class="prose card" style="padding:clamp(1.25rem,4vw,2.5rem);max-width:none" set:html={p.html} />
-</Page>
